@@ -6,7 +6,7 @@ RUN apk --no-cache update && \
     apk --no-cache add bash emacs git && \
     rm -rf /var/cache/apk/*
 
-EXPOSE 3000
+EXPOSE 8082
 EXPOSE 35729
 
 WORKDIR /root
