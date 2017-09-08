@@ -1,4 +1,4 @@
-FROM golang:alpine
+FROM golang
 
 MAINTAINER sunder.narayanaswamy@gmail.com
 
